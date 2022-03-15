@@ -95,6 +95,10 @@ main {
     transition: all 0.3s ease-in;
 }
 
+.fa-circle-check-done {
+    color: var(--green-color);
+}
+
 .fa-circle-check:hover {
     color: var(--green-color);
 }

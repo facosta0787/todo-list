@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
         integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Document</title>
+    <title>To Do - List</title>
 </head>
 
 <body>
@@ -21,12 +21,16 @@
         <h1 id="titulo-ppal">Fecha</h1>
         <p id="contador-tareas-pendientes">0 Tareas pendites</p>
         <form class="new-task-form">
-            <input type="text" class="caja-de-text" placeholder="Escriba una tarea..." />
+            <input
+                type="text"
+                class="caja-de-text"
+                placeholder="Escriba una tarea..."
+            />
             <button type="submit" class="boton submit-button">Agregar Tarea</button>
             <button type="reset" class="boton clear-button">Limpiar</button>
         </form>
         <ul id="lista-de-tareas" class="tasks-list">
-            
+            <!-- Renderizar (Pintar) la lista dinamicamente -->
         </ul>
     </main>
     <script src="app.js"></script>
