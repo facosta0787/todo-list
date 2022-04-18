@@ -43,9 +43,7 @@ function checkTask(posicion) {
 }
 
 function removeTask(position) {
-    todos = todos.filter(function (_, index) {
-        return index !== position
-    })
+    todos.splice(position, 1)
     saveTodos()
     renderTodos()
 }
